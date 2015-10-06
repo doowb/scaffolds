@@ -1,49 +1,50 @@
-# scaffolds [![NPM version](https://badge.fury.io/js/scaffolds.svg)](http://badge.fury.io/js/scaffolds)  [![Build Status](https://travis-ci.org/doowb/scaffolds.svg)](https://travis-ci.org/doowb/scaffolds) 
+# scaffolds [![NPM version](https://badge.fury.io/js/scaffolds.svg)](http://badge.fury.io/js/scaffolds)  [![Build Status](https://travis-ci.org/doowb/scaffolds.svg)](https://travis-ci.org/doowb/scaffolds)
 
 > Discover and manage project scaffolds.
 
-## Install with [npm](npmjs.org)
+Install with [npm](https://www.npmjs.com/)
 
-```bash
-npm i scaffolds --save
+```sh
+$ npm i scaffolds --save
 ```
 
 ## Usage
 
 ```js
-var scaffolds = require('scaffolds');
+var Scaffolds = require('scaffolds');
 ```
 
 ## API
-<!-- add a path or glob pattern for files with code comments to use for docs  -->
-{%= apidocs("index.js") %}
 
 ## Related projects
-<!-- add an array of related projects, then un-escape the helper -->
-{%= related([]) %}  
+
+* [generate](https://www.npmjs.com/package/generate): Project generator, for node.js. | [homepage](https://github.com/generate/generate)
+* [metadata](https://www.npmjs.com/package/metadata): Utils for working with metadata. | [homepage](https://github.com/assemble/metadata)
+* [scaffold](https://www.npmjs.com/package/scaffold): Conventions and API for creating scaffolds that can by used by any build system or… [more](https://www.npmjs.com/package/scaffold) | [homepage](https://github.com/jonschlinkert/scaffold)
 
 ## Running tests
-Install dev dependencies.
 
-```bash
-npm i -d && npm test
+Install dev dependencies:
+
+```sh
+$ npm i -d && npm test
 ```
 
-
 ## Contributing
-Pull requests and stars are always welcome. For bugs and feature requests, [please create an issue](https://github.com/doowb/scaffolds/issues)
 
+Pull requests and stars are always welcome. For bugs and feature requests, [please create an issue](https://github.com/doowb/scaffolds/issues/new).
 
 ## Author
 
 **Brian Woodward**
- 
+
 + [github/doowb](https://github.com/doowb)
-+ [twitter/doowb](http://twitter.com/doowb) 
++ [twitter/doowb](http://twitter.com/doowb)
 
 ## License
+
 Copyright © 2015 Brian Woodward
-Released under the MIT license
+Released under the MIT license.
 
 ***
 

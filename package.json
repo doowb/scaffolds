@@ -21,5 +21,14 @@
   },
   "devDependencies": {
     "mocha": "*"
+  },
+  "verb": {
+    "related": {
+      "list": [
+        "scaffold",
+        "metadata",
+        "generate"
+      ]
+    }
   }
 }
