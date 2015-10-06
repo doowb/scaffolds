@@ -7,6 +7,18 @@
 
 'use strict';
 
-module.exports = function () {
-  // do stuff
-};
+var Base = require('base-methods');
+var option = require('base-options');
+
+function Scaffolds (options) {
+  if (!(this instanceof Scaffolds)) {
+    return new Scaffolds(options);
+  }
+  Base.call(this);
+  this.options = options || {};
+  this.use(option);
+}
+
+Base.extend(Scaffolds);
+
+module.exports = Scaffolds;
