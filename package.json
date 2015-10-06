@@ -11,7 +11,7 @@
   "license": "MIT",
   "files": [
     "index.js",
-    "lib"
+    "lib/"
   ],
   "main": "index.js",
   "engines": {
@@ -41,6 +41,7 @@
   "dependencies": {
     "base-methods": "^0.2.13",
     "base-options": "^0.3.0",
-    "lazy-cache": "^0.2.3"
+    "lazy-cache": "^0.2.3",
+    "metadata": "doowb/metadata"
   }
 }
