@@ -39,11 +39,12 @@ gulp.task('init', function (done) {
   var scaffolds = new Scaffolds();
   scaffolds.init();
   scaffolds.metadata.addDependencies({
-    assemblefile: 'doowb/scaffold-assemblefile',
-    docs: 'doowb/scaffold-docs',
-    gulpfile: 'doowb/scaffold-gulpfile',
-    tests: 'doowb/scaffold-tests',
-    verbmd: 'doowb/scaffold-verbmd',
+    project: 'doowb/scaffold-project',
+    // assemblefile: 'doowb/scaffold-assemblefile',
+    // docs: 'doowb/scaffold-docs',
+    // gulpfile: 'doowb/scaffold-gulpfile',
+    // tests: 'doowb/scaffold-tests',
+    // verbmd: 'doowb/scaffold-verbmd',
   });
   writeFile('manifest.json', JSON.stringify(scaffolds.metadata, null, 2), done);
 });
