@@ -1,4 +1,4 @@
-# scaffolds [![NPM version](https://badge.fury.io/js/scaffolds.svg)](http://badge.fury.io/js/scaffolds)  [![Build Status](https://travis-ci.org/doowb/scaffolds.svg)](https://travis-ci.org/doowb/scaffolds)
+# scaffolds
 
 > Discover and manage project scaffolds.
 
