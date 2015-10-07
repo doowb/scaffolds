@@ -1,0 +1,23 @@
+{
+  "name": "scaffolds",
+  "description": "Discover and manage project scaffolds.",
+  "version": "0.1.0",
+  "homepage": "https://github.com/doowb/scaffolds",
+  "repository": "doowb/scaffolds",
+  "authors": [
+    {
+      "author": "Brian Woodward (https://github.com/doowb)"
+    }
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "assemblefile": "doowb/scaffold-assemblefile",
+    "docs": "doowb/scaffold-docs",
+    "gulpfile": "doowb/scaffold-gulpfile",
+    "tests": "doowb/scaffold-tests",
+    "verbmd": "doowb/scaffold-verbmd"
+  },
+  "targets": {},
+  "config": {},
+  "isMetadata": true
+}
