@@ -11,7 +11,7 @@
   ],
   "license": "MIT",
   "dependencies": {
-    "scaffold-project": "doowb/scaffold-project"
+    "project": "doowb/scaffold-project"
   },
   "targets": {},
   "config": {},
