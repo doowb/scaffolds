@@ -21,7 +21,6 @@
     "test": "mocha"
   },
   "devDependencies": {
-    "async": "^1.4.2",
     "gulp": "^3.9.0",
     "gulp-istanbul": "^0.10.1",
     "gulp-jshint": "^1.11.2",
@@ -43,6 +42,7 @@
     "ansi-gray": "^0.1.1",
     "ansi-green": "^0.1.1",
     "ansi-red": "^0.1.1",
+    "async": "^1.4.2",
     "base-methods": "^0.2.13",
     "base-options": "^0.3.0",
     "lazy-cache": "^0.2.3",
