@@ -2,6 +2,7 @@
 
 var gulp = require('gulp');
 var mocha = require('gulp-mocha');
+var minimist = require('minimist');
 var stylish = require('jshint-stylish');
 var istanbul = require('gulp-istanbul');
 var jshint = require('gulp-jshint');
@@ -54,10 +55,16 @@ gulp.task('install', function (done) {
   metadata.load(require('./manifest.json'));
 
   scaffolds.init(metadata.toJSON());
-  scaffolds.install(function (err, metadata) {
+  function cb (err, metadata) {
     if (err) return done(err);
-    done();
-  });
+    writeFile('manifest.json', JSON.stringify(scaffolds.metadata, null, 2), done);
+  }
+
+  var args = minimist(process.argv.slice(2), {alias: {d: 'dep'}});
+  if (args.dep) {
+    return scaffolds.install(args.dep, cb);
+  }
+  scaffolds.install(cb);
 });
 
 gulp.task('clear:cache', function (done) {

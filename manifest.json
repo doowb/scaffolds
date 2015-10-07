@@ -11,11 +11,11 @@
   ],
   "license": "MIT",
   "dependencies": {
-    "assemblefile": "doowb/scaffold-assemblefile",
-    "docs": "doowb/scaffold-docs",
-    "gulpfile": "doowb/scaffold-gulpfile",
-    "tests": "doowb/scaffold-tests",
-    "verbmd": "doowb/scaffold-verbmd"
+    "scaffold-assemblefile": "doowb/scaffold-assemblefile",
+    "scaffold-gulpfile": "doowb/scaffold-gulpfile",
+    "scaffold-verbmd": "doowb/scaffold-verbmd",
+    "scaffold-docs": "doowb/scaffold-docs",
+    "scaffold-tests": "doowb/scaffold-tests"
   },
   "targets": {},
   "config": {},
