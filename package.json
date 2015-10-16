@@ -57,5 +57,12 @@
     "request": "^2.64.0",
     "resolve-dir": "^0.1.0",
     "write": "^0.2.1"
-  }
+  },
+  "contributors": [
+    {
+      "name": "Brian Woodward",
+      "email": "brian.woodward@gmail.com",
+      "url": "https://github.com/doowb"
+    }
+  ]
 }
